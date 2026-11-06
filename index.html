@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Styled To-Do List</title>
+    <link rel="stylesheets" href="styles.css" />
+  </head>
+
+  <body>
+    <main>
+      <h1>My Web Dev Checklist</h1>
+      <ul class="todo-list">
+        <li>
+          <input type="checkbox" id="task-html" />
+          <label for="task-html">Review HTML Structure</label>
+          <ul class="sub-item">
+            <li>
+              <a
+                class="sub-item-link"
+                href="https://developer.mozilla.org/en-US/docs/Learn/HTML"
+                target="_blank"
+                >HTML on MDN</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li>
+          <input type="checkbox" id="task-css" />
+          <label for="task-css">Practice CSS selectors</label>
+          <ul class="sub-item">
+            <li>
+              <a
+                class="sub-item-link"
+                href="https://www.freecodecamp.org/news/css-flexbox-tutorial/"
+                target="_blank"
+                >CSS on MDN</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li>
+          <input type="checkbox" id="task-flexbox" />
+          <label for="task-flexbox">Build a Flexbox Layout</label>
+          <ul class="sub-item">
+            <li>
+              <a
+                class="sub-item-link"
+                href="https://www.w3schools.com/css/css3_flexbox.asp"
+                target="_blank"
+                >Flexbox on W3School</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li>
+          <input type="checkbox" id="task-responsive" />
+          <label for="task-responsive">Make a page responsive</label>
+          <ul class="sub-item">
+            <li>
+              <a
+                class="sub-item-link"
+                href="https://www.w3schools.com/html/html_responsive.asp"
+                target="_blank"
+                >Responsive Web Design on W3School</a
+              >
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>

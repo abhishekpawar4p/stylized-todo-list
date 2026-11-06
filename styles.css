@@ -1,0 +1,68 @@
+body{
+    font-family:"segoe UI", Tahoma, sans-serif;
+    background-color: #1e1b2e;
+    color: #f1eefc;
+    margin:0;
+    padding: 40px 20px;
+  }
+  
+  main{
+    max-width:480px;
+    margin:0 auto;
+  }
+  
+  h1{
+    text-align:center;
+    color: #ffd166
+  }
+  
+  .todo-list{
+    list-style:none;
+    padding:0;
+  }
+  
+  .todo-list > li {
+    background-color: #2d2845;
+    border-radius:10px;
+    padding:14px 18px;
+    margin-bottom:14px;
+  }
+  
+  label{
+    font-size:1.1rem;
+    margin-left: 8px;
+  }
+  
+  .sub-item{
+    list-style:none;
+    margin:8px 0 0 28px;
+  }
+  
+  /* Links: keeps This order(link, visited, hove, focus, active) */
+  
+  a {
+    text-decoration:none;
+  }
+  
+  a:link {
+    color: #4cc9f0; /*unvisited: sky blue */
+  }
+  
+  a:visited{
+    color: #b794f4; /* visited: purple */
+  }
+  
+  a:hover {
+    color: #ffd166; /* hover: yellow */
+  }
+  
+  a:focus {
+    outline: 3px solid #ff6b6b; /* focus: coral outline */
+    outline-offset: 3px;
+  }
+  
+  a:active {
+    color: #ff6b6b; /* clicked: coral */
+  }
+  
+  
